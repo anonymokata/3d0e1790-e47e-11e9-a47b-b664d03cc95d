@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dda1603-65ef-4ff5-bcb3-dc201f2b6752" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordearch/nucleus/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordearch/nucleus/WhenFieldIsCreated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/ExceptionalError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/HttpError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/SafeError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/SimpleError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/wordSearch.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/wordSearch.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/Field.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/WhenFieldIsCreated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordearch/nucleus/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordearch/nucleus/WhenFieldIsCreated.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +44,8 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="240">
-                    <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+                  <first_editor>
+                    <caret column="18" selection-start-column="18" selection-end-column="18" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -45,10 +53,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordearch/nucleus/WhenFieldIsCreated.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="478">
-                  <caret line="38" selection-start-line="38" selection-end-line="38" />
+                <state relative-caret-position="314">
+                  <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -59,12 +67,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordearch/nucleus/Field.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -88,10 +99,19 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/App.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/Field.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/WhenFieldIsCreated.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordearch/nucleus/WhenFieldIsCreated.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordearch/nucleus/Field.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/ErrorList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/ExceptionalError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/SafeError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/SimpleError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/HttpError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java" />
       </list>
     </option>
   </component>
@@ -117,6 +137,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,7 +189,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-              <item name="wordearch" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
@@ -177,13 +199,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-              <item name="wordearch" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
               <item name="membrane" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="membrane" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -218,14 +252,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-              <item name="wordearch" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +270,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -260,18 +292,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WhenFieldIsCreated">
+  <component name="RunManager" selected="JUnit.All in wordSearch">
+    <configuration name="All in wordSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordSearch" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WhenFieldIsCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordSearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spenkana.wordearch.nucleus.*" />
+          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spenkana.wordearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordearch.nucleus.WhenFieldIsCreated" />
+      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenFieldIsCreated" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenFieldIsCreated.factoryMethodIsProvided" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenFieldIsCreated" />
+      <option name="METHOD_NAME" value="factoryMethodIsProvided" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -280,12 +336,12 @@
       <module name="wordSearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spenkana.wordearch.nucleus.*" />
+          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spenkana.wordearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordearch.nucleus.WhenFieldIsCreated" />
+      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenFieldIsCreated" />
       <option name="METHOD_NAME" value="widthIsCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -294,6 +350,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in wordSearch" />
+        <item itemvalue="JUnit.WhenFieldIsCreated.factoryMethodIsProvided" />
         <item itemvalue="JUnit.WhenFieldIsCreated" />
         <item itemvalue="JUnit.WhenFieldIsCreated.widthIsCorrect" />
       </list>
@@ -312,6 +370,7 @@
       <workItem from="1560724336951" duration="2981000" />
       <workItem from="1560728596739" duration="238000" />
       <workItem from="1560728859570" duration="1061000" />
+      <workItem from="1560800897166" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure, Maven, Junit 5">
       <created>1560730720894</created>
@@ -327,19 +386,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560793957384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add length to field class">
+      <created>1560798348006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560798348006</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Result monad, bulletproof Field creation.">
+      <created>1560801223321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560801223321</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WhenFieldIsCreated_widthIsCorrect - 2019.06.17 at 12h 39m 10s.xml">
-      <configuration name="WhenFieldIsCreated.widthIsCorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenFieldIsCreated_widthIsCorrect - 2019.06.17 at 12h 40m 12s.xml">
-      <configuration name="WhenFieldIsCreated.widthIsCorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenFieldIsCreated_widthIsCorrect - 2019.06.17 at 12h 41m 48s.xml">
-      <configuration name="WhenFieldIsCreated.widthIsCorrect" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WhenFieldIsCreated_widthIsCorrect - 2019.06.17 at 13h 13m 36s.xml">
       <configuration name="WhenFieldIsCreated.widthIsCorrect" configurationId="JUnit" />
     </history-entry>
@@ -358,15 +422,27 @@
     <history-entry file="WhenFieldIsCreated - 2019.06.17 at 13h 35m 42s.xml">
       <configuration name="WhenFieldIsCreated" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WhenFieldIsCreated - 2019.06.17 at 14h 01m 29s.xml">
+      <configuration name="WhenFieldIsCreated" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhenFieldIsCreated - 2019.06.17 at 14h 02m 06s.xml">
+      <configuration name="WhenFieldIsCreated" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhenFieldIsCreated_factoryMethodIsProvided - 2019.06.17 at 14h 40m 53s.xml">
+      <configuration name="WhenFieldIsCreated.factoryMethodIsProvided" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_wordSearch - 2019.06.17 at 14h 50m 30s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11064000" />
+    <option name="totallyTimeSpent" value="14165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19147758" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1936912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,15 +452,15 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33045357" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3088553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -402,13 +478,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project structure, Maven, Junit 5" />
     <MESSAGE value="Create Field class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Field class" />
+    <MESSAGE value="Add length to field class" />
+    <MESSAGE value="Added Result monad, bulletproof Field creation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Result monad, bulletproof Field creation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spenkana/wordearch/nucleus/Field.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java</url>
           <line>9</line>
           <properties />
           <option name="timeStamp" value="2" />
@@ -417,6 +495,55 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/ErrorList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/ExceptionalError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/SafeError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/SimpleError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/HttpError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -424,35 +551,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <first_editor>
+            <caret column="18" selection-start-column="18" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordearch/nucleus/Field.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordearch/nucleus/WhenFieldIsCreated.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="314">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

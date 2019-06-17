@@ -19,4 +19,6 @@ model needs to be tight. If you prefer, you can consider this the distinction
 #### Conflict with classical baby-step TDD
 
 #Current commit/release
-Baby step - backed by so-far-undocumented domain model
+Adding Result classes so impure functions can return a monad to avoid 
+propagating exceptions. These classes are from a separate repository 
+(java-fp-utils) - sources are copied here for convenience of reviewers.
