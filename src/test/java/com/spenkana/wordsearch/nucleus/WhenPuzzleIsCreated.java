@@ -2,27 +2,27 @@ package com.spenkana.wordsearch.nucleus;
 
 import com.spenkana.wordsearch.membrane.result.Result;
 import com.spenkana.wordsearch.membrane.result.SimpleError;
-import com.spenkana.wordsearch.nucleus.Field.Cell;
+import com.spenkana.wordsearch.nucleus.Puzzle.Cell;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static com.spenkana.wordsearch.nucleus.Field.newField;
+import static com.spenkana.wordsearch.nucleus.Puzzle.newPuzzle;
 import static com.spenkana.wordsearch.nucleus.FieldTestFunctions.generateStringOfLength;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class WhenFieldIsCreated {
+public class WhenPuzzleIsCreated {
 
     @Test
     public void factoryMethodIsProvided() {
-        Result<Field, SimpleError> result = newField("ABC", "DEF", "GHI");
+        Result<Puzzle, SimpleError> result = newPuzzle("ABC", "DEF", "GHI");
 
         assertEquals(3, result.output.sideLength);
     }
 
     @Test
     public void initialCellIsOrigin() {
-        Field field = newField("ABC", "DEF", "GHI").output;
-        Cell initial = field.initial();
+        Puzzle puzzle = newPuzzle("ABC", "DEF", "GHI").output;
+        Cell initial = puzzle.initial();
 
         assertEquals(0, initial.x);
         assertEquals(0, initial.y);
@@ -31,32 +31,32 @@ public class WhenFieldIsCreated {
 
     @Test
     public void nonSquareFieldCannotBeCreated() {
-        Result<Field, SimpleError> result = newField("ABC", "DEF");
+        Result<Puzzle, SimpleError> result = newPuzzle("ABC", "DEF");
 
         assertFalse(result.succeeded);
-        assertEquals("Field must be square", result.error.message());
+        assertEquals("Puzzle must be square", result.error.message());
 
-        result = newField("ABC", "DEF", "GH");
+        result = newPuzzle("ABC", "DEF", "GH");
 
         assertFalse(result.succeeded);
-        assertEquals("Field must be square", result.error.message());
+        assertEquals("Puzzle must be square", result.error.message());
     }
 
 
     @Test
     public void zeroWidthFieldCannotBeCreated() {
-        Result<Field, SimpleError> result = newField(new String[]{});
+        Result<Puzzle, SimpleError> result = newPuzzle(new String[]{});
 
         assertFalse(result.succeeded);
-        assertEquals("Field cannot be empty", result.error.message());
+        assertEquals("Puzzle cannot be empty", result.error.message());
     }
 
     @Test
     public void emptyFieldCannotBeCreated() {
-        Result<Field, SimpleError> result = newField((String[])null);
+        Result<Puzzle, SimpleError> result = newPuzzle((String[])null);
 
         assertFalse(result.succeeded);
-        assertEquals("Field cannot be empty", result.error.message());
+        assertEquals("Puzzle cannot be empty", result.error.message());
 
     }
 
@@ -69,9 +69,9 @@ public class WhenFieldIsCreated {
             for (int i = 0; i < expectedSideLength; ++i) {
                 rows[i] = row;
             }
-            Field field = newField(rows).output;
+            Puzzle puzzle = newPuzzle(rows).output;
 
-            Assertions.assertEquals(expectedSideLength, field.sideLength);
+            Assertions.assertEquals(expectedSideLength, puzzle.sideLength);
         }
     }
 

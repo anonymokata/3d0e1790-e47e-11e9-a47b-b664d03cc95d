@@ -8,8 +8,8 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.fail;
 
 public abstract class FieldTestFunctions {
-    static Field makeField(String... rows) {
-        Result<Field, SimpleError> result = Field.newField(rows);
+    static Puzzle makePuzzle(String... rows) {
+        Result<Puzzle, SimpleError> result = Puzzle.newPuzzle(rows);
         if (result.failed){
             fail(result.error.message());
         }

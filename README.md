@@ -13,11 +13,16 @@ between classic TDD approaches and the necessity of domain analysis.
 
 The word search kata is not exactly a true-to-life task. In the absence of a 
 customer to hold a conversation with, I have had to play the customer role 
-myself.
+myself. 
 
-I have also tried to write Java code using clean code techniques derived from
+(Question about the "User Stories": is the "Puzzle Solver" supposed 
+to be the user? If so, it's strange, because the user is not solving the 
+puzzle. If not, this is a personification of a software object that I haven't
+ come across before in user stories.)
+
+I have tried to write Java code using clean code techniques derived from
  functional programming. For example, I have used a Result monad I developed 
- to eliminate any (re)throwing of exceptions, a part of Java its creators 
+ to eliminate any (re)throwing of exceptions, a feature of Java its creators 
  have agreed was a mistake.
 
 ### DBTDD (Domain-Based TDD)
@@ -25,6 +30,7 @@ I have also tried to write Java code using clean code techniques derived from
 BDD format: test class and method names form complete explanatory sentences.
 
 Not "unit" tests: DBTDD tests are organized around behavior, not classes.
+
 #### Ethnological Domain Modeling
 The natives' domain models need not be "correct" or in the most efficient form. 
 They need to work in a reasonably sustainable way. The developers' domain 
@@ -34,6 +40,3 @@ model needs to be tight. If you prefer, you can consider this the distinction
 #### Conflict with classical baby-step TDD
 
 #Current commit/release
-Adding Result classes so impure functions can return a monad to avoid 
-propagating exceptions. These classes are from a separate repository 
-(java-fp-utils) - sources are copied here for convenience of reviewers.

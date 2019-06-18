@@ -5,11 +5,11 @@ import com.spenkana.wordsearch.membrane.result.SimpleError;
 
 import static com.spenkana.wordsearch.membrane.result.Result.failureDueTo;
 
-public class Field {
+public class Puzzle {
     public final char[][] data;
     public final Integer sideLength;
 
-    private Field(String... rows) {
+    private Puzzle(String... rows) {
         sideLength = rows.length;
         data = new char[sideLength][sideLength];
         for (int row = 0; row < sideLength; ++row) {
@@ -18,20 +18,20 @@ public class Field {
         }
     }
 
-    public static Result<Field, SimpleError> newField(String... rows) {
+    public static Result<Puzzle, SimpleError> newPuzzle(String... rows) {
         if (rows == null || rows.length == 0) {
-            return failureDueTo("Field cannot be empty");
+            return failureDueTo("Puzzle cannot be empty");
 
         }
         if(rows.length == 0){
-            return failureDueTo("Field cannot have zero width");
+            return failureDueTo("Puzzle cannot have zero width");
         }
         for(int i = 0; i < rows.length; ++i) {
             if (rows[i].length() != rows.length) {
-                return failureDueTo("Field must be square");
+                return failureDueTo("Puzzle must be square");
             }
         }
-        return Result.successWith(new Field(rows));
+        return Result.successWith(new Puzzle(rows));
     }
 
     public Cell initial() {
