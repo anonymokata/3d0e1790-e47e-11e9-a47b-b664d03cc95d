@@ -2,6 +2,7 @@ package com.spenkana.wordsearch.nucleus;
 
 import com.spenkana.wordsearch.membrane.result.Result;
 import com.spenkana.wordsearch.membrane.result.SimpleError;
+import com.spenkana.wordsearch.nucleus.Field.Cell;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -13,9 +14,19 @@ public class WhenFieldIsCreated {
 
     @Test
     public void factoryMethodIsProvided() {
-        Result<Field, SimpleError> result = newField("ABC", "DEF","GHI");
+        Result<Field, SimpleError> result = newField("ABC", "DEF", "GHI");
 
         assertEquals(3, result.output.sideLength);
+    }
+
+    @Test
+    public void initialCellIsOrigin() {
+        Field field = newField("ABC", "DEF", "GHI").output;
+        Cell initial = field.initial();
+
+        assertEquals(0, initial.x);
+        assertEquals(0, initial.y);
+        assertEquals('A', (initial.value));
     }
 
     @Test
@@ -42,7 +53,7 @@ public class WhenFieldIsCreated {
 
     @Test
     public void emptyFieldCannotBeCreated() {
-        Result<Field, SimpleError> result = newField(null);
+        Result<Field, SimpleError> result = newField((String[])null);
 
         assertFalse(result.succeeded);
         assertEquals("Field cannot be empty", result.error.message());
@@ -55,7 +66,7 @@ public class WhenFieldIsCreated {
         for (int expectedSideLength = 1; expectedSideLength < 37; ++expectedSideLength) {
             String[] rows = new String[expectedSideLength];
             String row = generateStringOfLength(expectedSideLength);
-            for(int i = 0; i < expectedSideLength; ++i){
+            for (int i = 0; i < expectedSideLength; ++i) {
                 rows[i] = row;
             }
             Field field = newField(rows).output;

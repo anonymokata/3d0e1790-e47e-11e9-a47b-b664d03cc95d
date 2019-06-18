@@ -1,21 +1,25 @@
 package com.spenkana.wordsearch.nucleus;
 
-import com.spenkana.wordsearch.nucleus.Field.Cell;
 import org.junit.jupiter.api.Test;
 
-import static com.spenkana.wordsearch.nucleus.FieldTestFunctions.makeField;
+
+import java.util.List;
+
+import static com.spenkana.wordsearch.nucleus.Field.newField;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class WhenFieldIsScanned {
 
-    @Test
-    public void initialCellIsOrigin() {
-        Field field = makeField("ABC", "DEF", "GHI");
-        Cell initial = field.initial();
 
-        assertEquals(0, initial.x);
-        assertEquals(0, initial.y);
-        assertEquals('A', (initial.value));
+    @Test
+    public void singleCharWordIsFound() {
+        String word = "E";
+        Field field = newField(word).output;
+        Scanner scanner = Scanner.newScanner(field).output;
+
+        List<Scanner.Found> found = scanner.find(word);
+
+        assertEquals(found.get(0).word, word);
     }
 
 
