@@ -22,14 +22,22 @@ public class WhenPuzzleIsScanned {
         assertEquals(found.word, word);
         assertEquals(1, found.cells.length);
         Puzzle.Cell cell = found.cells[0];
-        assertEquals(0, cell.x);
-        assertEquals(0, cell.y);
+        assertEquals(puzzle.initial, cell);
     }
 
     @Test
-    public void horizontalScanSucceeds() {
+    public void horizontalScanSucceedsOnFirstLine() {
         String word = "AB";
         Puzzle puzzle = newPuzzle(word, "CD").output;
+        Solver solver = Solver.newScanner(puzzle).output;
+
+        Found[] wordsFound = solver.find(word);
+
+        Found found = wordsFound[0];
+        assertEquals(found.word, word);
+        assertEquals(2, found.cells.length);
+        assertEquals(puzzle.initial, found.cells[0]);
+        assertEquals(puzzle.getCell(1, 0).output, found.cells[1]);
     }
 
 

@@ -22,7 +22,7 @@ public class WhenPuzzleIsCreated {
     @Test
     public void initialCellIsOrigin() {
         Puzzle puzzle = newPuzzle("ABC", "DEF", "GHI").output;
-        Cell initial = puzzle.initial();
+        Cell initial = puzzle.initial;
 
         assertEquals(0, initial.x);
         assertEquals(0, initial.y);
