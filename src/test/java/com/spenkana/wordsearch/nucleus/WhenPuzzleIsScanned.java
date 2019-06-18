@@ -53,7 +53,21 @@ public class WhenPuzzleIsScanned {
         assertEquals(2, found.cells.length);
         assertEquals(puzzle.getCell(1, 0).output, found.cells[0]);
         assertEquals(puzzle.getCell(2, 0).output, found.cells[1]);
+    }
 
+    @Test
+    public void horizontalScanSucceedsAnywhere() {
+        String word = "HI";
+        Puzzle puzzle = newPuzzle("ABC","DEF","GHI").output;
+        Solver solver = Solver.newScanner(puzzle).output;
+
+        Found[] wordsFound = solver.find(word);
+
+        Found found = wordsFound[0];
+        assertEquals(found.word, word);
+        assertEquals(2, found.cells.length);
+        assertEquals(puzzle.getCell(1, 2).output, found.cells[0]);
+        assertEquals(puzzle.getCell(2, 2).output, found.cells[1]);
     }
 
 

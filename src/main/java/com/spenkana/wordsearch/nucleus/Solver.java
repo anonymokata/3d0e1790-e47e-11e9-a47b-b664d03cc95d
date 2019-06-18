@@ -40,7 +40,7 @@ public class Solver {
                     instancesFound.add(new Found(word, searchResult.output));
                 }
             }
-            Result<Cell, SimpleError> result = getNeighbor(possibleStartingCell);
+            Result<Cell, SimpleError> result = getNextCell(possibleStartingCell);
             if (result.succeeded) {
                 possibleStartingCell = result.output;
             } else {
@@ -50,11 +50,16 @@ public class Solver {
         return instancesFound.toArray(new Found[0]);
     }
 
-    Result<Cell, SimpleError> getNeighbor(Cell currentCell) {
+    Result<Cell, SimpleError> getNextCell(Cell currentCell) {
         int x = currentCell.x + 1;
-        return (x < puzzle.sideLength)
-                ? successWith(puzzle.getCell(x, currentCell.y).output)
-                : failureDueTo("End of line");
+        if (x < puzzle.sideLength) {
+            return successWith(puzzle.getCell(x, currentCell.y).output);
+        }
+        int y = currentCell.y + 1;
+        if (y < puzzle.sideLength){
+            return successWith(puzzle.getCell(0, y).output);
+        }
+                return failureDueTo("No more cells");
     }
 
     private Result<Cell[], SimpleError> findAll(
