@@ -5,30 +5,44 @@ import com.spenkana.wordsearch.membrane.result.SimpleError;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
-
+import static com.spenkana.wordsearch.nucleus.Field.newField;
+import static com.spenkana.wordsearch.nucleus.FieldTestFunctions.generateStringOfLength;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class WhenFieldIsCreated {
 
     @Test
     public void factoryMethodIsProvided() {
-        Result<Field, SimpleError> result = Field.newField("ABC");
+        Result<Field, SimpleError> result = newField("ABC", "DEF","GHI");
 
-        assertEquals(3, result.output.width);
+        assertEquals(3, result.output.sideLength);
     }
 
     @Test
-    public void zeroWidthFieldCannotBeCreated() {
-        Result<Field, SimpleError> result = Field.newField("");
+    public void nonSquareFieldCannotBeCreated() {
+        Result<Field, SimpleError> result = newField("ABC", "DEF");
 
         assertFalse(result.succeeded);
-        assertEquals("Width cannot be zero", result.error.message());
+        assertEquals("Field must be square", result.error.message());
+
+        result = newField("ABC", "DEF", "GH");
+
+        assertFalse(result.succeeded);
+        assertEquals("Field must be square", result.error.message());
+    }
+
+
+    @Test
+    public void zeroWidthFieldCannotBeCreated() {
+        Result<Field, SimpleError> result = newField(new String[]{});
+
+        assertFalse(result.succeeded);
+        assertEquals("Field cannot be empty", result.error.message());
     }
 
     @Test
     public void emptyFieldCannotBeCreated() {
-        Result<Field, SimpleError> result = Field.newField(null);
+        Result<Field, SimpleError> result = newField(null);
 
         assertFalse(result.succeeded);
         assertEquals("Field cannot be empty", result.error.message());
@@ -37,38 +51,18 @@ public class WhenFieldIsCreated {
 
 
     @Test
-    public void widthIsCorrect() {
-        for (int i = 1; i < 37; ++i) {
-
-            Assertions.assertEquals(i,
-                    makeField(generateStringOfLength(i)).width);
-        }
-    }
-
-    @Test
-    public void heightIsCorrect(){
-
-        for (int i = 1; i < 43; ++i) {
-            String[] rows = new String[i];
-            for(int j=0; j < i; ++j){
-                rows[j] = "x";
+    public void sideLengthIsCorrect() {
+        for (int expectedSideLength = 1; expectedSideLength < 37; ++expectedSideLength) {
+            String[] rows = new String[expectedSideLength];
+            String row = generateStringOfLength(expectedSideLength);
+            for(int i = 0; i < expectedSideLength; ++i){
+                rows[i] = row;
             }
-            assertEquals(i, makeField(rows).length);
+            Field field = newField(rows).output;
+
+            Assertions.assertEquals(expectedSideLength, field.sideLength);
         }
-
     }
 
-    private Field makeField(String... rows) {
-        Result<Field, SimpleError> result = Field.newField(rows);
-        if (result.failed){
-            fail(result.error.message());
-        }
-        return result.output;
-    }
 
-    private String generateStringOfLength(int i) {
-        char[] array = new char[i];
-        Arrays.fill(array, 'x');
-        return new String(array);
-    }
 }

@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dda1603-65ef-4ff5-bcb3-dc201f2b6752" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/ExceptionalError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/HttpError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/SafeError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/SimpleError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/wordSearch.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/wordSearch.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordearch/nucleus/Field.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordearch/nucleus/WhenFieldIsCreated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,22 +23,13 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsScanned.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor>
-                    <caret column="18" selection-start-column="18" selection-end-column="18" />
-                  </first_editor>
-                  <second_editor />
+                <state relative-caret-position="255">
+                  <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -55,8 +37,20 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="314">
-                  <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+                <state relative-caret-position="373">
+                  <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/FieldTestFunctions.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -71,10 +65,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+                <state relative-caret-position="304">
+                  <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#1211#1212#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -91,6 +86,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SafeError</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>SimpleError</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -103,13 +106,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/WhenFieldIsCreated.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordearch/nucleus/WhenFieldIsCreated.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordearch/nucleus/Field.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/Result.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/ErrorList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/ExceptionalError.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/SafeError.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/SimpleError.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/HttpError.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/FieldTestFunctions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsScanned.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java" />
       </list>
@@ -254,6 +259,17 @@
               <item name="spenkana" type="462c0819:PsiDirectoryNode" />
               <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="nucleus" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -273,6 +289,9 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.spenkana.wordsearch.nucleus.FieldTestFunctions" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.spenkana.wordearch.nucleus" />
     </key>
@@ -301,7 +320,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenFieldIsCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhenFieldIsCreated.emptyFieldCannotBeCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordSearch" />
       <extension name="coverage">
         <pattern>
@@ -311,7 +330,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
       <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenFieldIsCreated" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="emptyFieldCannotBeCreated" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -332,7 +352,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenFieldIsCreated.widthIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhenFieldIsCreated.nonSquareFieldCannotBeCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordSearch" />
       <extension name="coverage">
         <pattern>
@@ -342,7 +362,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
       <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenFieldIsCreated" />
-      <option name="METHOD_NAME" value="widthIsCorrect" />
+      <option name="METHOD_NAME" value="nonSquareFieldCannotBeCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenFieldIsScanned.initialCellIsOrigin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenFieldIsScanned" />
+      <option name="METHOD_NAME" value="initialCellIsOrigin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -351,9 +387,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in wordSearch" />
+        <item itemvalue="JUnit.WhenFieldIsCreated.nonSquareFieldCannotBeCreated" />
+        <item itemvalue="JUnit.WhenFieldIsScanned.initialCellIsOrigin" />
+        <item itemvalue="JUnit.WhenFieldIsCreated.emptyFieldCannotBeCreated" />
         <item itemvalue="JUnit.WhenFieldIsCreated.factoryMethodIsProvided" />
-        <item itemvalue="JUnit.WhenFieldIsCreated" />
-        <item itemvalue="JUnit.WhenFieldIsCreated.widthIsCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +407,7 @@
       <workItem from="1560724336951" duration="2981000" />
       <workItem from="1560728596739" duration="238000" />
       <workItem from="1560728859570" duration="1061000" />
-      <workItem from="1560800897166" duration="349000" />
+      <workItem from="1560800897166" duration="10125000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure, Maven, Junit 5">
       <created>1560730720894</created>
@@ -400,43 +437,64 @@
       <option name="project" value="LOCAL" />
       <updated>1560801223321</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Result monad, bulletproof Field creation.">
+      <created>1560801265520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560801265520</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Result monad, bulletproof Field creation.">
+      <created>1560801299258</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560801299258</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Field cannot be null or empty">
+      <created>1560811042262</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560811042262</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WhenFieldIsCreated_widthIsCorrect - 2019.06.17 at 13h 13m 36s.xml">
-      <configuration name="WhenFieldIsCreated.widthIsCorrect" configurationId="JUnit" />
+    <history-entry file="WhenFieldIsScanned_initialCellIsOrigin - 2019.06.17 at 18h 15m 17s.xml">
+      <configuration name="WhenFieldIsScanned.initialCellIsOrigin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsCreated_widthIsCorrect - 2019.06.17 at 13h 14m 11s.xml">
-      <configuration name="WhenFieldIsCreated.widthIsCorrect" configurationId="JUnit" />
+    <history-entry file="WhenFieldIsScanned_initialCellIsOrigin - 2019.06.17 at 18h 16m 33s.xml">
+      <configuration name="WhenFieldIsScanned.initialCellIsOrigin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsCreated_widthIsCorrect - 2019.06.17 at 13h 18m 56s.xml">
-      <configuration name="WhenFieldIsCreated.widthIsCorrect" configurationId="JUnit" />
+    <history-entry file="WhenFieldIsScanned_initialCellIsOrigin - 2019.06.17 at 18h 19m 14s.xml">
+      <configuration name="WhenFieldIsScanned.initialCellIsOrigin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsCreated_widthIsCorrect - 2019.06.17 at 13h 22m 32s.xml">
-      <configuration name="WhenFieldIsCreated.widthIsCorrect" configurationId="JUnit" />
+    <history-entry file="All_in_wordSearch - 2019.06.17 at 18h 19m 22s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsCreated - 2019.06.17 at 13h 35m 03s.xml">
-      <configuration name="WhenFieldIsCreated" configurationId="JUnit" />
+    <history-entry file="All_in_wordSearch - 2019.06.17 at 19h 37m 18s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsCreated - 2019.06.17 at 13h 35m 42s.xml">
-      <configuration name="WhenFieldIsCreated" configurationId="JUnit" />
+    <history-entry file="All_in_wordSearch - 2019.06.17 at 19h 40m 22s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsCreated - 2019.06.17 at 14h 01m 29s.xml">
-      <configuration name="WhenFieldIsCreated" configurationId="JUnit" />
+    <history-entry file="All_in_wordSearch - 2019.06.17 at 19h 43m 28s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsCreated - 2019.06.17 at 14h 02m 06s.xml">
-      <configuration name="WhenFieldIsCreated" configurationId="JUnit" />
+    <history-entry file="All_in_wordSearch - 2019.06.17 at 19h 44m 35s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsCreated_factoryMethodIsProvided - 2019.06.17 at 14h 40m 53s.xml">
-      <configuration name="WhenFieldIsCreated.factoryMethodIsProvided" configurationId="JUnit" />
+    <history-entry file="All_in_wordSearch - 2019.06.17 at 19h 45m 49s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.17 at 14h 50m 30s.xml">
+    <history-entry file="All_in_wordSearch - 2019.06.17 at 19h 46m 31s.xml">
       <configuration name="All in wordSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14165000" />
+    <option name="totallyTimeSpent" value="23941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -452,7 +510,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.33045357" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33045357" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -460,7 +518,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3088553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -480,14 +538,15 @@
     <MESSAGE value="Create Field class" />
     <MESSAGE value="Add length to field class" />
     <MESSAGE value="Added Result monad, bulletproof Field creation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Result monad, bulletproof Field creation." />
+    <MESSAGE value="Field cannot be null or empty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Field cannot be null or empty" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java</url>
-          <line>9</line>
+          <line>11</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -554,27 +613,48 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor>
-            <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <first_editor relative-caret-position="389">
+            <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/FieldTestFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsScanned.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        <state relative-caret-position="373">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
