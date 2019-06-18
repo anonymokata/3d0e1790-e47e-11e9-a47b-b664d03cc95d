@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dda1603-65ef-4ff5-bcb3-dc201f2b6752" name="Default Changelist" comment="">
+    <list default="true" id="3dda1603-65ef-4ff5-bcb3-dc201f2b6752" name="Default Changelist" comment="Baby step: support horizontal forward search on first line only.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +26,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+                <state relative-caret-position="374">
+                  <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -40,37 +42,33 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="96">
-                  <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+                <state relative-caret-position="394">
+                  <caret line="49" selection-start-line="49" selection-end-line="49" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1162#1163#0" expanded="true" />
-                    <element signature="e#1211#1212#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#130#131#0" expanded="true" />
-                    <element signature="e#164#165#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="183">
+                  <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="299">
-                    <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+                  <first_editor relative-caret-position="479">
+                    <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -123,12 +121,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/result/HttpError.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/FieldTestFunctions.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsScanned.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -154,8 +153,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,7 +285,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -321,39 +320,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenPuzzleIsCreated.emptyFieldCannotBeCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wordSearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenPuzzleIsCreated" />
-      <option name="METHOD_NAME" value="emptyFieldCannotBeCreated" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhenPuzzleIsCreated.nonSquareFieldCannotBeCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wordSearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenPuzzleIsCreated" />
-      <option name="METHOD_NAME" value="nonSquareFieldCannotBeCreated" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhenPuzzleIsScanned.initialCellIsOrigin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhenPuzzleIsScanned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordSearch" />
       <extension name="coverage">
         <pattern>
@@ -363,7 +330,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
       <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenPuzzleIsScanned" />
-      <option name="METHOD_NAME" value="initialCellIsOrigin" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenPuzzleIsScanned.horizontalScanSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenPuzzleIsScanned" />
+      <option name="METHOD_NAME" value="horizontalScanSucceeds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenPuzzleIsScanned.horizontalScanSucceedsOnFirstLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenPuzzleIsScanned" />
+      <option name="METHOD_NAME" value="horizontalScanSucceedsOnFirstLine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -388,10 +386,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in wordSearch" />
+        <item itemvalue="JUnit.WhenPuzzleIsScanned" />
         <item itemvalue="JUnit.WhenPuzzleIsScanned.singleCharWordIsFound" />
-        <item itemvalue="JUnit.WhenPuzzleIsCreated.nonSquareFieldCannotBeCreated" />
-        <item itemvalue="JUnit.WhenPuzzleIsScanned.initialCellIsOrigin" />
-        <item itemvalue="JUnit.WhenPuzzleIsCreated.emptyFieldCannotBeCreated" />
+        <item itemvalue="JUnit.WhenPuzzleIsScanned.horizontalScanSucceedsOnFirstLine" />
+        <item itemvalue="JUnit.WhenPuzzleIsScanned.horizontalScanSucceeds" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +407,9 @@
       <workItem from="1560728596739" duration="238000" />
       <workItem from="1560728859570" duration="1061000" />
       <workItem from="1560800897166" duration="10643000" />
-      <workItem from="1560858580048" duration="5370000" />
+      <workItem from="1560858580048" duration="18381000" />
+      <workItem from="1560890822418" duration="709000" />
+      <workItem from="1560891853342" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure, Maven, Junit 5">
       <created>1560730720894</created>
@@ -481,48 +481,62 @@
       <option name="project" value="LOCAL" />
       <updated>1560863571961</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Solver in progress (baby step)&#10;Changed &quot;scanner&quot; to &quot;solver&quot; to align with domain language.">
+      <created>1560869911754</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560869911754</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Support only forward horizzontal search from origin.">
+      <created>1560886754644</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560886754644</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_wordSearch - 2019.06.17 at 19h 50m 03s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenPuzzleIsScanned - 2019.06.18 at 15h 00m 42s.xml">
+      <configuration name="WhenPuzzleIsScanned" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.17 at 19h 50m 41s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenPuzzleIsScanned - 2019.06.18 at 15h 45m 43s.xml">
+      <configuration name="WhenPuzzleIsScanned" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 06h 52m 51s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenPuzzleIsScanned_horizontalScanSucceedsOnFirstLine - 2019.06.18 at 15h 46m 10s.xml">
+      <configuration name="WhenPuzzleIsScanned.horizontalScanSucceedsOnFirstLine" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 06h 54m 03s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenPuzzleIsScanned_singleCharWordIsFound - 2019.06.18 at 15h 48m 04s.xml">
+      <configuration name="WhenPuzzleIsScanned.singleCharWordIsFound" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsScanned_singleCharWordIsFound - 2019.06.18 at 07h 12m 47s.xml">
-      <configuration name="WhenFieldIsScanned.singleCharWordIsFound" configurationId="JUnit" />
+    <history-entry file="WhenPuzzleIsScanned_singleCharWordIsFound - 2019.06.18 at 15h 49m 02s.xml">
+      <configuration name="WhenPuzzleIsScanned.singleCharWordIsFound" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsScanned_singleCharWordIsFound - 2019.06.18 at 07h 13m 23s.xml">
-      <configuration name="WhenFieldIsScanned.singleCharWordIsFound" configurationId="JUnit" />
+    <history-entry file="WhenPuzzleIsScanned_singleCharWordIsFound - 2019.06.18 at 15h 50m 52s.xml">
+      <configuration name="WhenPuzzleIsScanned.singleCharWordIsFound" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenFieldIsScanned_singleCharWordIsFound - 2019.06.18 at 07h 24m 33s.xml">
-      <configuration name="WhenFieldIsScanned.singleCharWordIsFound" configurationId="JUnit" />
+    <history-entry file="WhenPuzzleIsScanned_singleCharWordIsFound - 2019.06.18 at 15h 55m 48s.xml">
+      <configuration name="WhenPuzzleIsScanned.singleCharWordIsFound" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 07h 24m 53s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenPuzzleIsScanned - 2019.06.18 at 16h 09m 30s.xml">
+      <configuration name="WhenPuzzleIsScanned" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 07h 46m 58s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenPuzzleIsScanned_singleCharWordIsFound - 2019.06.18 at 16h 09m 57s.xml">
+      <configuration name="WhenPuzzleIsScanned.singleCharWordIsFound" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 07h 58m 28s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenPuzzleIsScanned - 2019.06.18 at 16h 10m 05s.xml">
+      <configuration name="WhenPuzzleIsScanned" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29829000" />
+    <option name="totallyTimeSpent" value="44153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19590482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20033205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -540,7 +554,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3088553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -564,16 +578,25 @@
     <MESSAGE value="Enforce squareness&#10;Scanning support in progress - added Cell class" />
     <MESSAGE value="Scanner in progress (baby step)" />
     <MESSAGE value="Scanner in progress (baby step)&#10;Changed &quot;field&quot; to &quot;puzzle&quot; to align with domain language." />
-    <option name="LAST_COMMIT_MESSAGE" value="Scanner in progress (baby step)&#10;Changed &quot;field&quot; to &quot;puzzle&quot; to align with domain language." />
+    <MESSAGE value="Solver in progress (baby step)&#10;Changed &quot;scanner&quot; to &quot;solver&quot; to align with domain language." />
+    <MESSAGE value="Support only forward horizzontal search from origin." />
+    <MESSAGE value="Baby step: support horizontal forward search on first line only." />
+    <option name="LAST_COMMIT_MESSAGE" value="Baby step: support horizontal forward search on first line only." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java</url>
-          <line>11</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java</url>
+          <line>33</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -655,47 +678,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="299">
-            <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/current/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="394">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="479">
+            <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

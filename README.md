@@ -40,6 +40,4 @@ model needs to be tight. If you prefer, you can consider this the distinction
 #### Conflict with classical baby-step TDD
 
 #Current commit/release
-Essentially a failed step - way too much code to make one test pass. Even 
-needed the debugger. And the step should have been small: support only 
-forward horizontal search from origin.
+Baby step - code is still too complicated.

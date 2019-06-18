@@ -28,30 +28,49 @@ public class Solver {
         String word = words[0];
         char[] chars = new char[word.length()];
         word.getChars(0, word.length(), chars, 0);
-        Result<Cell[], SimpleError> result = findAll(
-                chars, puzzle.initial, 0,
-                new LinkedList<>()
-        );
-        if(result.succeeded){
-            instancesFound.add(new Found(word, result.output));
+        Cell possibleStartingCell = puzzle.initial;
+        boolean cellsRemain = true;
+        while (cellsRemain) {
+            if (possibleStartingCell.value == chars[0]) {
+                Result<Cell[], SimpleError> searchResult = findAll(
+                        chars, possibleStartingCell, 0,
+                        new LinkedList<>()
+                );
+                if (searchResult.succeeded) {
+                    instancesFound.add(new Found(word, searchResult.output));
+                }
+            }
+            Result<Cell, SimpleError> result = getNeighbor(possibleStartingCell);
+            if (result.succeeded) {
+                possibleStartingCell = result.output;
+            } else {
+                cellsRemain = false;
+            }
         }
-        return instancesFound.toArray(new Found[]{});
+        return instancesFound.toArray(new Found[0]);
+    }
+
+    Result<Cell, SimpleError> getNeighbor(Cell currentCell) {
+        int x = currentCell.x + 1;
+        return (x < puzzle.sideLength)
+                ? successWith(puzzle.getCell(x, currentCell.y).output)
+                : failureDueTo("End of line");
     }
 
     private Result<Cell[], SimpleError> findAll(
             char[] word, Cell currentCell,
             int wordCharIndex,
             List<Cell> cellsMatched) {
-        if (currentCell.value == word[wordCharIndex]){
+        if (currentCell.value == word[wordCharIndex]) {
             cellsMatched.add(currentCell);
             int nextIndex = wordCharIndex + 1;
-            if (nextIndex >= word.length){
+            if (nextIndex >= word.length) {
                 Cell[] allCellsMatched = cellsMatched.toArray(new Cell[0]);
                 return successWith(allCellsMatched);
             }
             Result<Cell, SimpleError> result =
                     puzzle.getCell(currentCell.x + 1, currentCell.y);
-            if (result.succeeded){
+            if (result.succeeded) {
                 return findAll(word, result.output, nextIndex, cellsMatched);
             }
         }

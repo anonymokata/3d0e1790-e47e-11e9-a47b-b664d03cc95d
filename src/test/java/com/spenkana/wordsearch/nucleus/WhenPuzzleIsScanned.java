@@ -26,7 +26,7 @@ public class WhenPuzzleIsScanned {
     }
 
     @Test
-    public void horizontalScanSucceedsOnFirstLine() {
+    public void horizontalScanSucceedsAtOrigin() {
         String word = "AB";
         Puzzle puzzle = newPuzzle(word, "CD").output;
         Solver solver = Solver.newScanner(puzzle).output;
@@ -38,6 +38,22 @@ public class WhenPuzzleIsScanned {
         assertEquals(2, found.cells.length);
         assertEquals(puzzle.initial, found.cells[0]);
         assertEquals(puzzle.getCell(1, 0).output, found.cells[1]);
+    }
+
+    @Test
+    public void horizontalScanSucceedsAnywhereOnFirstLine() {
+        String word = "BC";
+        Puzzle puzzle = newPuzzle("ABC","DEF","GHI").output;
+        Solver solver = Solver.newScanner(puzzle).output;
+
+        Found[] wordsFound = solver.find(word);
+
+        Found found = wordsFound[0];
+        assertEquals(found.word, word);
+        assertEquals(2, found.cells.length);
+        assertEquals(puzzle.getCell(1, 0).output, found.cells[0]);
+        assertEquals(puzzle.getCell(2, 0).output, found.cells[1]);
+
     }
 
 
