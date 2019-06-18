@@ -4,24 +4,24 @@ import com.spenkana.wordsearch.membrane.result.Result;
 import com.spenkana.wordsearch.membrane.result.SimpleError;
 import com.spenkana.wordsearch.nucleus.Puzzle.Cell;
 
-import static com.spenkana.wordsearch.nucleus.Scanner.Found.newFound;
+import static com.spenkana.wordsearch.nucleus.Solver.Found.newFound;
 
-public class Scanner {
+public class Solver {
 
     private final Puzzle puzzle;
 
-    public Scanner(Puzzle puzzle) {
+    public Solver(Puzzle puzzle) {
         this.puzzle = puzzle;
     }
 
-    public static Result<Scanner, SimpleError> newScanner(Puzzle puzzle) {
-        Scanner scanner = new Scanner(puzzle);
-        return Result.successWith(scanner);
+    public static Result<Solver, SimpleError> newScanner(Puzzle puzzle) {
+        Solver solver = new Solver(puzzle);
+        return Result.successWith(solver);
     }
 
-    public Found[] find(String e) {
+    public Found[] find(String... words) {
         Cell[] cells = new Cell[]{puzzle.initial()};
-        return new Found[]{newFound(e, cells)};
+        return new Found[]{newFound(words[0], cells)};
     }
 
     public static class Found {

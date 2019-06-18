@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dda1603-65ef-4ff5-bcb3-dc201f2b6752" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/FieldTestFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/FieldTestFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsCreated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsScanned.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+                <state relative-caret-position="435">
+                  <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -41,7 +37,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="96">
@@ -55,11 +51,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="345">
-                  <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+                  <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#130#131#0" expanded="true" />
@@ -95,9 +91,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>SafeError</find>
+      <find>firld</find>
+      <find>field</find>
+      <find>makeField</find>
+      <find>newField</find>
     </findStrings>
     <replaceStrings>
       <replace>SimpleError</replace>
+      <replace>puzzle</replace>
+      <replace>makePuzzle</replace>
+      <replace>newPuzzle</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -121,10 +124,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/FieldTestFunctions.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsCreated.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsScanned.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java" />
       </list>
     </option>
   </component>
@@ -308,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WhenPuzzleIsScanned.singleCharWordIsFound">
+  <component name="RunManager" selected="JUnit.All in wordSearch">
     <configuration name="All in wordSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordSearch" />
       <option name="PACKAGE_NAME" value="" />
@@ -405,7 +409,7 @@
       <workItem from="1560728596739" duration="238000" />
       <workItem from="1560728859570" duration="1061000" />
       <workItem from="1560800897166" duration="10643000" />
-      <workItem from="1560858580048" duration="4704000" />
+      <workItem from="1560858580048" duration="5370000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure, Maven, Junit 5">
       <created>1560730720894</created>
@@ -470,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560860841492</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Scanner in progress (baby step)&#10;Changed &quot;field&quot; to &quot;puzzle&quot; to align with domain language.">
+      <created>1560863571961</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560863571961</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -506,13 +517,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29163000" />
+    <option name="totallyTimeSpent" value="29829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19590482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19590482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,7 +540,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3088553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -553,7 +563,8 @@
     <MESSAGE value="Field cannot be null or empty" />
     <MESSAGE value="Enforce squareness&#10;Scanning support in progress - added Cell class" />
     <MESSAGE value="Scanner in progress (baby step)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scanner in progress (baby step)" />
+    <MESSAGE value="Scanner in progress (baby step)&#10;Changed &quot;field&quot; to &quot;puzzle&quot; to align with domain language." />
+    <option name="LAST_COMMIT_MESSAGE" value="Scanner in progress (baby step)&#10;Changed &quot;field&quot; to &quot;puzzle&quot; to align with domain language." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,10 +665,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="435">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -667,23 +690,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#130#131#0" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
           </folding>
         </state>
       </provider>

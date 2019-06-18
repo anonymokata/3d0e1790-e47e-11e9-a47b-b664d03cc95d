@@ -1,6 +1,6 @@
 package com.spenkana.wordsearch.nucleus;
 
-import com.spenkana.wordsearch.nucleus.Scanner.Found;
+import com.spenkana.wordsearch.nucleus.Solver.Found;
 import org.junit.jupiter.api.Test;
 
 
@@ -14,9 +14,9 @@ public class WhenPuzzleIsScanned {
     public void singleCharWordIsFound() {
         String word = "E";
         Puzzle puzzle = newPuzzle(word).output;
-        Scanner scanner = Scanner.newScanner(puzzle).output;
+        Solver solver = Solver.newScanner(puzzle).output;
 
-        Found[] wordsFound = scanner.find(word);
+        Found[] wordsFound = solver.find(word);
 
         Found found = wordsFound[0];
         assertEquals(found.word, word);
@@ -28,7 +28,8 @@ public class WhenPuzzleIsScanned {
 
     @Test
     public void horizontalScanSucceeds() {
-        Puzzle puzzle = newPuzzle("AB", "CD").output;
+        String word = "AB";
+        Puzzle puzzle = newPuzzle(word, "CD").output;
     }
 
 
