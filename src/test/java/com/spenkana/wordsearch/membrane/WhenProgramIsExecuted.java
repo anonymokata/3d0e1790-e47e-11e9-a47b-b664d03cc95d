@@ -4,8 +4,11 @@ import com.spenkana.wordsearch.PuzzleSpec;
 import com.spenkana.wordsearch.nucleus.Puzzle;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static com.spenkana.wordsearch.ExpectedObjects.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class WhenProgramIsExecuted {
 
@@ -15,7 +18,8 @@ public class WhenProgramIsExecuted {
                 "src/test/resources/puzzleSpecExample.txt"
         ).output;
 
-        assertEquals(wordsExpectedInExample, puzzleSpec.wordsExpected);
+        assertTrue(Arrays.equals(
+                wordsExpectedInExampleAsArray  , puzzleSpec.wordsExpected));
         Puzzle puzzle = puzzleSpec.puzzle;
         assertEquals(ExamplePuzzle.sideLength, puzzle.sideLength);
         assertEquals(ExamplePuzzle.initial, puzzle.initial);

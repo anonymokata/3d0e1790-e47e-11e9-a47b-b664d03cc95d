@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3dda1603-65ef-4ff5-bcb3-dc201f2b6752" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,127 +20,62 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="599">
-                  <caret line="206" selection-start-line="206" selection-end-line="206" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsCreated.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/FieldTestFunctions.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/Loader.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.sdkman/candidates/java/current/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="61" selection-start-line="61" selection-end-line="61" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="379">
-                  <caret line="52" selection-start-line="52" selection-end-line="52" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/ExpectedObjects.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/resources/puzzleSpecExample.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="2" selection-start-column="2" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="150">
+                <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/WordSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -189,17 +125,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/run_all_tests.sh" />
         <option value="$PROJECT_DIR$/src/test/resources/example.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenProgramIsExecuted.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/ExpectedObjects.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/Loader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/WordSearch.java" />
       </list>
     </option>
   </component>
@@ -209,6 +146,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="word-search" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="word-search" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="293" />
@@ -359,18 +312,12 @@
               <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="nucleus" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -524,7 +471,7 @@
       <workItem from="1560800897166" duration="10643000" />
       <workItem from="1560858580048" duration="18381000" />
       <workItem from="1560890822418" duration="709000" />
-      <workItem from="1560891853342" duration="39832000" />
+      <workItem from="1560891853342" duration="45339000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure, Maven, Junit 5">
       <created>1560730720894</created>
@@ -666,25 +613,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560956192653</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Puzzle spec is loaded from file.">
+      <created>1560973366265</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1560973366265</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 13h 36m 54s.xml">
-      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 13h 40m 13s.xml">
-      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 13h 41m 29s.xml">
-      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 13h 47m 00s.xml">
-      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 14h 20m 25s.xml">
-      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 14h 28m 09s.xml">
       <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
@@ -700,13 +639,27 @@
     <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 14h 34m 51s.xml">
       <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 14h 38m 55s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_wordSearch - 2019.06.19 at 14h 39m 27s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_wordSearch - 2019.06.19 at 15h 31m 46s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_wordSearch - 2019.06.19 at 15h 32m 45s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_wordSearch - 2019.06.19 at 15h 35m 22s.xml">
+      <configuration name="All in wordSearch" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83381000" />
+    <option name="totallyTimeSpent" value="88888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20033205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -718,7 +671,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33045357" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -727,12 +680,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3088553" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3088553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.32982844" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -760,7 +713,8 @@
     <MESSAGE value="More refactoring. &quot;Twisty&quot; instances still need to be filtered out." />
     <MESSAGE value="Added method to filter out kinky instances." />
     <MESSAGE value="Solution is formatted correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution is formatted correctly" />
+    <MESSAGE value="Puzzle spec is loaded from file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Puzzle spec is loaded from file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,16 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="464">
-            <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -876,13 +820,6 @@
             <element signature="e#503#504#0" expanded="true" />
             <element signature="e#539#540#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -923,13 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/puzzleSpecExample.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -940,7 +870,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/ExpectedObjects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -966,7 +896,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
+        <state relative-caret-position="365">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -974,10 +904,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="150">
+            <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
