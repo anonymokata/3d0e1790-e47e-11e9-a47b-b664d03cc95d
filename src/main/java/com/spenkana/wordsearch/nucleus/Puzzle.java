@@ -3,6 +3,7 @@ package com.spenkana.wordsearch.nucleus;
 import com.spenkana.wordsearch.membrane.result.Result;
 import com.spenkana.wordsearch.membrane.result.SimpleError;
 
+import java.util.Arrays;
 import java.util.Objects;
 
 import static com.spenkana.wordsearch.membrane.result.Result.failureDueTo;

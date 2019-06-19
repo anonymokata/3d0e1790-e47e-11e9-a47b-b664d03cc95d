@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3dda1603-65ef-4ff5-bcb3-dc201f2b6752" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,37 +25,47 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="393">
-                  <caret line="111" selection-start-line="111" selection-end-line="111" />
+                <state relative-caret-position="599">
+                  <caret line="206" selection-start-line="206" selection-end-line="206" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1272#1273#0" expanded="true" />
-                    <element signature="e#1314#1315#0" expanded="true" />
-                    <element signature="e#1376#1377#0" expanded="true" />
-                    <element signature="e#1418#1419#0" expanded="true" />
-                    <element signature="e#1476#1477#0" expanded="true" />
-                    <element signature="e#1518#1519#0" expanded="true" />
-                    <element signature="e#1571#1572#0" expanded="true" />
-                    <element signature="e#1613#1614#0" expanded="true" />
-                    <element signature="e#1571#1572#0" expanded="true" />
-                    <element signature="e#1613#1614#0" expanded="true" />
-                    <element signature="e#1760#1761#0" expanded="true" />
-                    <element signature="e#1802#1803#0" expanded="true" />
-                    <element signature="e#1853#1854#0" expanded="true" />
-                    <element signature="e#1895#1896#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsCreated.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="484">
-                    <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-                  </first_editor>
-                  <second_editor />
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/FieldTestFunctions.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -63,12 +73,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/Loader.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" selection-start-line="30" selection-end-line="30" />
+                <state relative-caret-position="360">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -76,16 +86,53 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.sdkman/candidates/java/current/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+                <state relative-caret-position="394">
+                  <caret line="61" selection-start-line="61" selection-end-line="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="379">
+                  <caret line="52" selection-start-line="52" selection-end-line="52" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#503#504#0" expanded="true" />
-                    <element signature="e#539#540#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/ExpectedObjects.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/puzzleSpecExample.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="2" selection-start-column="2" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -124,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/Field.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/WhenFieldIsCreated.java" />
@@ -141,11 +187,19 @@
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenFieldIsScanned.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/run_all_tests.sh" />
+        <option value="$PROJECT_DIR$/src/test/resources/example.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenProgramIsExecuted.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/ExpectedObjects.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/Loader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java" />
       </list>
     </option>
   </component>
@@ -168,6 +222,8 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -189,7 +245,132 @@
               <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="membrane" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="nucleus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="membrane" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
+              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="nucleus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,12 +396,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.spenkana.wordsearch.ExpectedObjects" />
       <recent name="com.spenkana.wordsearch.nucleus.FieldTestFunctions" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.spenkana.wordsearch.membrane" />
       <recent name="com.spenkana.wordearch.nucleus" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.spenkana.wordsearch" />
+      <recent name="com.spenkana.wordsearch.membrane" />
       <recent name="com.spenkana.wordsearch.nucleus" />
       <recent name="com.spenkana" />
     </key>
@@ -246,11 +431,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenAPuzzleIsScanned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhenAPuzzleIsScanned.expectedSolutionIsFormattedCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordSearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
+          <option name="PATTERN" value="com.spenkana.wordsearch.membrane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned" />
+      <option name="METHOD_NAME" value="expectedSolutionIsFormattedCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spenkana.wordsearch.membrane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned" />
+      <option name="METHOD_NAME" value="scanCanBeRestrictedToStraightInstances" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spenkana.wordsearch.membrane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.membrane" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.membrane.WhenProgramIsExecuted" />
+      <option name="METHOD_NAME" value="puzzleSpecIsReadCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[engine:junit-jupiter]/[class:com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned]" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spenkana.wordsearch.membrane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,61 +498,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenAPuzzleIsScanned.multipleWordsFound_BigPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wordSearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned" />
-      <option name="METHOD_NAME" value="multipleWordsFound_BigPuzzle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wordSearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned" />
-      <option name="METHOD_NAME" value="scanCanBeRestrictedToStraightInstances" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhenAPuzzleIsScanned.scanFindsMultipleInstancesOfAWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wordSearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spenkana.wordsearch.nucleus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned" />
-      <option name="METHOD_NAME" value="scanFindsMultipleInstancesOfAWord" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in wordSearch" />
+        <item itemvalue="JUnit.WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" />
+        <item itemvalue="JUnit.WhenAPuzzleIsScanned.expectedSolutionIsFormattedCorrectly" />
         <item itemvalue="JUnit.WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" />
-        <item itemvalue="JUnit.WhenAPuzzleIsScanned" />
-        <item itemvalue="JUnit.WhenAPuzzleIsScanned.multipleWordsFound_BigPuzzle" />
-        <item itemvalue="JUnit.WhenAPuzzleIsScanned.scanFindsMultipleInstancesOfAWord" />
+        <item itemvalue="JUnit.[engine:junit-jupiter]/[class:com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned]" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +524,7 @@
       <workItem from="1560800897166" duration="10643000" />
       <workItem from="1560858580048" duration="18381000" />
       <workItem from="1560890822418" duration="709000" />
-      <workItem from="1560891853342" duration="26824000" />
+      <workItem from="1560891853342" duration="39832000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure, Maven, Junit 5">
       <created>1560730720894</created>
@@ -467,46 +652,61 @@
       <option name="project" value="LOCAL" />
       <updated>1560923136823</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added method to filter out kinky instances.">
+      <created>1560928686643</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1560928686643</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Solution is formatted correctly">
+      <created>1560956192653</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1560956192653</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WhenAPuzzleIsScanned_multipleWordsFound_BigPuzzle - 2019.06.19 at 01h 25m 25s.xml">
-      <configuration name="WhenAPuzzleIsScanned.multipleWordsFound_BigPuzzle" configurationId="JUnit" />
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 13h 36m 54s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.19 at 01h 26m 06s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 13h 40m 13s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 01h 45m 22s.xml">
-      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 13h 41m 29s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 01h 57m 26s.xml">
-      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 13h 47m 00s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 01h 59m 33s.xml">
-      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 14h 20m 25s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 02h 00m 54s.xml">
-      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 14h 28m 09s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 02h 01m 27s.xml">
-      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 14h 28m 12s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenAPuzzleIsScanned - 2019.06.19 at 02h 02m 12s.xml">
-      <configuration name="WhenAPuzzleIsScanned" configurationId="JUnit" />
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 14h 33m 10s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 02h 03m 10s.xml">
-      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 14h 33m 20s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.19 at 02h 03m 19s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenProgramIsExecuted_puzzleSpecIsReadCorrectly - 2019.06.19 at 14h 34m 51s.xml">
+      <configuration name="WhenProgramIsExecuted.puzzleSpecIsReadCorrectly" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70373000" />
+    <option name="totallyTimeSpent" value="83381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20033205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -518,7 +718,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.33045357" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33045357" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -526,7 +726,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3088553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -558,7 +758,9 @@
     <MESSAGE value="Added backward horizontal scan." />
     <MESSAGE value="Added all diagonal scans." />
     <MESSAGE value="More refactoring. &quot;Twisty&quot; instances still need to be filtered out." />
-    <option name="LAST_COMMIT_MESSAGE" value="More refactoring. &quot;Twisty&quot; instances still need to be filtered out." />
+    <MESSAGE value="Added method to filter out kinky instances." />
+    <MESSAGE value="Solution is formatted correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution is formatted correctly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -566,13 +768,13 @@
         <line-breakpoint enabled="true" type="java-line">
           <condition expression="prefix.size() == word.length()" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java</url>
-          <line>72</line>
+          <line>109</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java</url>
-          <line>166</line>
+          <line>189</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -655,16 +857,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="464">
+            <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="420">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all_tests.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="77" selection-start-column="77" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/FieldTestFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="150">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -674,25 +905,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsCreated.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
+        <state relative-caret-position="119">
           <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/current/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -701,47 +915,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="599">
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/puzzleSpecExample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/ExpectedObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="484">
-            <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/current/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/Loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

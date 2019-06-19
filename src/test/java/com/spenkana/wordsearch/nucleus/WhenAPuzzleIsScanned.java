@@ -1,5 +1,6 @@
 package com.spenkana.wordsearch.nucleus;
 
+import com.spenkana.wordsearch.ExpectedObjects;
 import com.spenkana.wordsearch.nucleus.Solver.Found;
 import org.junit.jupiter.api.Test;
 
@@ -21,20 +22,6 @@ public class WhenAPuzzleIsScanned {
             "UVWXY"
 
     ).output;
-
-    private final String[] wordsExpectedIn15x15 = new String[]{
-            "BONES", "KHAN", "KIRK", "SCOTTY", "SPOCK", "SULU", "UHURA"
-    };
-
-    String[] expectedSolution = new String[]{
-            "BONES: (0,6),(0,7),(0,8),(0,9),(0,10)",
-            "KHAN: (5,9),(5,8),(5,7),(5,6)",
-            "KIRK: (4,7),(3,7),(2,7),(1,7)",
-            "SCOTTY: (0,5),(1,5),(2,5),(3,5),(4,5),(5,5)",
-            "SPOCK: (2,1),(3,2),(4,3),(5,4),(6,5)",
-            "SULU: (3,3),(2,2),(1,1),(0,0)",
-            "UHURA: (4,0),(3,1),(2,2),(1,3),(0,4)"
-    };
 
     @Test
     public void singleCharWordIsFound() {
@@ -101,27 +88,27 @@ public class WhenAPuzzleIsScanned {
 
     @Test
     public void expectedWordsFoundIn15x15() {
-        Solver solver = new Solver(FifteenBy15);
+        Solver solver = new Solver(ExpectedObjects.ExamplePuzzle);
 
-        List<Found> instancesFound = solver.find(wordsExpectedIn15x15);
+        List<Found> instancesFound = solver.find(ExpectedObjects.wordsExpectedInExampleAsArray);
 
         assertEquals(23, instancesFound.size());
-        for (String word : wordsExpectedIn15x15) {
-            verifyFind(word, FifteenBy15);
+        for (String word : ExpectedObjects.wordsExpectedInExampleAsArray) {
+            verifyFind(word, ExpectedObjects.ExamplePuzzle);
         }
     }
 
     @Test
     public void expectedSolutionIsFormattedCorrectly() {
-        Solver solver = new Solver(FifteenBy15);
+        Solver solver = new Solver(ExpectedObjects.ExamplePuzzle);
 
-        String[] solution = solver.solveFor(wordsExpectedIn15x15);
+        String[] solution = solver.solveFor(ExpectedObjects.wordsExpectedInExampleAsArray);
 
-        assertEquals(expectedSolution.length, solution.length);
+        assertEquals(ExpectedObjects.expectedSolution.length, solution.length);
         for(int i = 0; i < solution.length; ++i){
             String line = solution[i];
             display(line);
-            assertEquals(expectedSolution[i], line);
+            assertEquals(ExpectedObjects.expectedSolution[i], line);
         }
     }
 
@@ -140,7 +127,7 @@ public class WhenAPuzzleIsScanned {
         String[] words = new String[]{
                 "BONES", "KHAN", "KIRK", "SCOTTY", "SPOCK", "SULU", "UHURA"
         };
-        Solver solver = new Solver(FifteenBy15);
+        Solver solver = new Solver(ExpectedObjects.ExamplePuzzle);
 
         List<Found> instancesFound = solver.findStraightInstancesOnly(words);
 
@@ -216,23 +203,5 @@ public class WhenAPuzzleIsScanned {
         }
     }
 
-
-    Puzzle FifteenBy15 = newPuzzle(
-            "UMKHULKINVJOCWE",
-            "LLSHKZZWZCGJUYG",
-            "HSUPJPRJDHSBXTG",
-            "BRJSOEQETIKKGLE",
-            "AYOAGCIRDQHRTCD",
-            "SCOTTYKZREPPXPF",
-            "BLQSLNEEEVULFMZ",
-            "OKRIKAMMRMFBAPP",
-            "NUIIYHQMEMQRYFS",
-            "EYZYGKQJPCQWYAK",
-            "SJFZMQIBDBEMKWD",
-            "TGLBHCBECHTOYIK",
-            "OJYEULNCCLYBZUH",
-            "WZMISUKURBIDUXS",
-            "KYLBQQPMDFCKEAB"
-    ).output;
 
 }
