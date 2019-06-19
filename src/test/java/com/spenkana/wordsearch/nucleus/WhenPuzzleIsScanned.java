@@ -75,7 +75,7 @@ public class WhenPuzzleIsScanned {
     }
 
     @Test
-    @Disabled
+//    @Disabled
     public void downwardVerticalScanSucceeds() {
         String word = "GLQ";
         Solver solver = new Solver(FiveBy5);
@@ -84,6 +84,18 @@ public class WhenPuzzleIsScanned {
 
         verifyWordFound(word, wordsFound.get(0));
     }
+
+    @Test
+    public void backwardHorizontalScanSucceeds() {
+        String word = "IHG";
+        Solver solver = new Solver(FiveBy5);
+
+        List<Found> wordsFound = solver.find(word);
+
+        verifyWordFound(word, wordsFound.get(0));
+
+    }
+
 
     @Test
     public void twoWordsAreFound() {

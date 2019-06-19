@@ -21,7 +21,7 @@ public class Solver {
 
     public List<Found> find(String... words) {
         List<Found> instancesFound = new LinkedList<>();
-        for(String word: words) {
+        for (String word : words) {
             findInstancesOfWord(instancesFound, word);
         }
         return Collections.unmodifiableList(instancesFound);
@@ -58,19 +58,30 @@ public class Solver {
             cellsMatched.add(currentCell);
             int nextIndex = wordCharIndex + 1;
             if (nextIndex != word.length()) {
-                Result<Cell, SimpleError> result =
-                        puzzle.getCell(currentCell.x + 1, currentCell.y);
-                if (result.succeeded) {
-                    instancesFound.addAll(
-                            findAll(word, result.output, nextIndex, cellsMatched)
-                    );
-                }
+                findRemaining(word, currentCell, cellsMatched, instancesFound, nextIndex);
             } else {
                 instancesFound.add(
                         Found.newFound(word, cellsMatched.toArray(new Cell[0])));
             }
         }
         return instancesFound;
+    }
+
+    private void findRemaining(
+            String word, Cell currentCell, List<Cell> cellsMatched,
+            List<Found> instancesFound, int nextIndex
+    ) {
+        for (Neighbor neighbor : Neighbor.asList()) {
+            Result<Cell, SimpleError> result =
+                    puzzle.getCell(
+                            currentCell.x + neighbor.xIncrement,
+                            currentCell.y + neighbor.yIncrement);
+            if (result.succeeded) {
+                instancesFound.addAll(
+                        findAll(word, result.output, nextIndex, cellsMatched)
+                );
+            }
+        }
     }
 
     Result<Cell, SimpleError> getNextCell(Cell currentCell) {
@@ -83,10 +94,6 @@ public class Solver {
             return successWith(puzzle.getCell(0, y).output);
         }
         return failureDueTo("No more cells");
-    }
-
-    private static boolean lastCharMatched(String word, int nextIndex) {
-        return nextIndex >= word.length();
     }
 
     public static class Found {
@@ -106,6 +113,7 @@ public class Solver {
 
     private enum Neighbor {
         Right(1, 0),
+        Left(-1, 0),
         Down(0, 1);
 
         public final int xIncrement;
