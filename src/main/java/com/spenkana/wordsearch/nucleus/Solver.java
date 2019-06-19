@@ -52,36 +52,31 @@ public class Solver {
     private List<Found> findAll(
             String word, Cell currentCell,
             int wordCharIndex,
-            List<Cell> cellsMatched) {
+            List<Cell> cellsMatchedSoFar) {
         List<Found> instancesFound = new LinkedList<>();
         if (currentCell.value == word.charAt(wordCharIndex)) {
-            cellsMatched.add(currentCell);
+            cellsMatchedSoFar.add(currentCell);
             int nextIndex = wordCharIndex + 1;
-            if (nextIndex != word.length()) {
-                findRemaining(word, currentCell, cellsMatched, instancesFound, nextIndex);
-            } else {
+            if (nextIndex == word.length()) {
                 instancesFound.add(
-                        Found.newFound(word, cellsMatched.toArray(new Cell[0])));
+                        Found.newFound(word, cellsMatchedSoFar.toArray(new Cell[0])));
+                return instancesFound;
+            }
+            for (NeighborOffset neighborOffset : NeighborOffset.allNeighborOffsets()) {
+                List<Cell> prefix = new LinkedList<>();
+                prefix.addAll(cellsMatchedSoFar);
+                Result<Cell, SimpleError> result =
+                        puzzle.getCell(
+                                currentCell.x + neighborOffset.xIncrement,
+                                currentCell.y + neighborOffset.yIncrement);
+                if (result.succeeded) {
+                    instancesFound.addAll(
+                            findAll(word, result.output, nextIndex, prefix)
+                    );
+                }
             }
         }
         return instancesFound;
-    }
-
-    private void findRemaining(
-            String word, Cell currentCell, List<Cell> cellsMatched,
-            List<Found> instancesFound, int nextIndex
-    ) {
-        for (Neighbor neighbor : Neighbor.asList()) {
-            Result<Cell, SimpleError> result =
-                    puzzle.getCell(
-                            currentCell.x + neighbor.xIncrement,
-                            currentCell.y + neighbor.yIncrement);
-            if (result.succeeded) {
-                instancesFound.addAll(
-                        findAll(word, result.output, nextIndex, cellsMatched)
-                );
-            }
-        }
     }
 
     Result<Cell, SimpleError> getNextCell(Cell currentCell) {
@@ -111,36 +106,35 @@ public class Solver {
         }
     }
 
-    private enum Neighbor {
+    private enum NeighborOffset {
         Right(1, 0),
         Left(-1, 0),
         Down(0, 1),
         Up(0, -1),
-        DownRight(1,1),
-        UpLeft(-1,-1),
+        DownRight(1, 1),
+        UpLeft(-1, -1),
         UpRight(1, -1),
-        DownLeft(-1, 1)
-        ;
+        DownLeft(-1, 1);
 
         public final int xIncrement;
         public final int yIncrement;
-        static List<Neighbor> neighbors;
+        static List<NeighborOffset> neighborOffsets;
 
-        Neighbor(int xIncrement, int yIncrement) {
+        NeighborOffset(int xIncrement, int yIncrement) {
             this.xIncrement = xIncrement;
             this.yIncrement = yIncrement;
             register(this);
         }
 
-        private static void register(Neighbor neighbor) {
-            if (neighbors == null) {
-                neighbors = new LinkedList<>();
+        private static void register(NeighborOffset neighborOffset) {
+            if (neighborOffsets == null) {
+                neighborOffsets = new LinkedList<>();
             }
-            neighbors.add(neighbor);
+            neighborOffsets.add(neighborOffset);
         }
 
-        public static List<Neighbor> asList() {
-            return Collections.unmodifiableList(neighbors);
+        public static List<NeighborOffset> allNeighborOffsets() {
+            return Collections.unmodifiableList(neighborOffsets);
         }
     }
 }

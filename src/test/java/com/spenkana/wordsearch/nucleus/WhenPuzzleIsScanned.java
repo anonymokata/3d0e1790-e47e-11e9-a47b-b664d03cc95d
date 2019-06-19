@@ -37,14 +37,14 @@ public class WhenPuzzleIsScanned {
     @Test
     public void horizontalScanSucceedsAnywhereOnFirstLine() {
         String word = "BC";
-        Puzzle puzzle = newPuzzle("ABC","DEF","GHI").output;
+        Puzzle puzzle = newPuzzle("ABC", "DEF", "GHI").output;
         verifyFind(word, puzzle);
     }
 
     @Test
     public void horizontalScanSucceedsAnywhere() {
         String word = "HI";
-        Puzzle puzzle = newPuzzle("ABC","DEF","GHI").output;
+        Puzzle puzzle = newPuzzle("ABC", "DEF", "GHI").output;
         verifyFind(word, puzzle);
     }
 
@@ -68,7 +68,7 @@ public class WhenPuzzleIsScanned {
         verifyFind("GMS", FiveBy5);
     }
 
-     @Test
+    @Test
     public void upLeftScanSucceeds() {
         verifyFind("SMG", FiveBy5);
     }
@@ -78,10 +78,35 @@ public class WhenPuzzleIsScanned {
         verifyFind("IMQ", FiveBy5);
     }
 
-     @Test
+    @Test
     public void upRightScanSucceeds() {
         verifyFind("QMI", FiveBy5);
     }
+
+    @Test
+    public void scanFindsMultipleInstancesOfAWord() {
+        /*
+        Note that in this puzzle, the four "corner" Bs have five neighboring Cs,
+        resulting in five instances of ABC each for a total of 20, The five
+        "side" Bs only have three neighboring Cs, resulting in three instances
+         each for a total of twelve. Thus there are 32 instances of ABC.
+         */
+        Puzzle puzzle = newPuzzle(
+                "CCCCC",
+                "CBBBC",
+                "CBABC",
+                "CBBBC",
+                "CCCCC"
+        ).output;
+
+        List<Found> instancesFound = new Solver(puzzle).find("ABC");
+
+        assertEquals(32, instancesFound.size());
+        for (Found found : instancesFound){
+            verifyWordFound("ABC", found);
+        }
+    }
+
 
     private void verifyFind(String word, Puzzle fiveBy5) {
         Solver solver = new Solver(fiveBy5);
@@ -95,7 +120,7 @@ public class WhenPuzzleIsScanned {
         assertEquals(found.word, word);
         int expectedLength = word.length();
         assertEquals(expectedLength, found.cells.length);
-        for(int i = 0; i < expectedLength; ++i) {
+        for (int i = 0; i < expectedLength; ++i) {
             assertEquals(word.charAt(i), found.cells[i].value);
         }
     }
