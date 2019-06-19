@@ -8,8 +8,9 @@ import java.util.List;
 
 import static com.spenkana.wordsearch.nucleus.Puzzle.newPuzzle;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
-public class WhenPuzzleIsScanned {
+public class WhenAPuzzleIsScanned {
 
     Puzzle FiveBy5 = newPuzzle(
             "ABCDE",
@@ -84,6 +85,46 @@ public class WhenPuzzleIsScanned {
     }
 
     @Test
+    public void multipleWordsFound_BigPuzzle() {
+        String[] words = new String[]{
+                "BONES", "KHAN", "KIRK", "SCOTTY", "SPOCK", "SULU", "UHURA"
+        };
+        Solver solver = new Solver(FifteenBy15);
+
+        List<Found> instancesFound = solver.find(words);
+
+        assertEquals(23, instancesFound.size());
+        for (String word : words) {
+            verifyFind(word, FifteenBy15);
+        }
+    }
+
+    @Test
+    public void scanCanBeRestrictedToStraightInstances() {
+        String[] words = new String[]{
+                "BONES", "KHAN", "KIRK", "SCOTTY", "SPOCK", "SULU", "UHURA"
+        };
+        Solver solver = new Solver(FifteenBy15);
+
+        List<Found> instancesFound = solver.findStraightInstancesOnly(words);
+
+        for (Found found : instancesFound) {
+            Puzzle.Cell[] cells = found.cells;
+            int xOffset = cells[1].x - cells[0].x;
+            int yOffset = cells[1].y - cells[0].y;
+            for (int i = 2; i < cells.length; ++i) {
+                if ((cells[i].x - cells[i - 1].x) != xOffset) {
+                    fail("Bad x offset - instance #" + 1);
+                }
+                if ((cells[i].y - cells[i - 1].y) != yOffset) {
+                    fail("Bad y offset - instance #" + 1);
+                }
+            }
+        }
+    }
+
+
+    @Test
     public void scanFindsMultipleInstancesOfAWord() {
         /*
         Note that in this puzzle, the four "corner" Bs have five neighboring Cs,
@@ -102,9 +143,23 @@ public class WhenPuzzleIsScanned {
         List<Found> instancesFound = new Solver(puzzle).find("ABC");
 
         assertEquals(32, instancesFound.size());
-        for (Found found : instancesFound){
+        for (Found found : instancesFound) {
             verifyWordFound("ABC", found);
         }
+    }
+
+
+    @Test
+    public void twoWordsAreFound() {
+        String word1 = "BCD";
+        String word2 = "GHI";
+        Solver solver = new Solver(FiveBy5);
+
+        List<Found> wordsFound = solver.find(word1, word2);
+
+        assertEquals(2, wordsFound.size());
+        verifyWordFound(word1, wordsFound.get(0));
+        verifyWordFound(word2, wordsFound.get(1));
     }
 
 
@@ -126,18 +181,22 @@ public class WhenPuzzleIsScanned {
     }
 
 
-    @Test
-    public void twoWordsAreFound() {
-        String word1 = "BCD";
-        String word2 = "GHI";
-        Solver solver = new Solver(FiveBy5);
-
-        List<Found> wordsFound = solver.find(word1, word2);
-
-        assertEquals(2, wordsFound.size());
-        verifyWordFound(word1, wordsFound.get(0));
-        verifyWordFound(word2, wordsFound.get(1));
-    }
-
+    Puzzle FifteenBy15 = newPuzzle(
+            "UMKHULKINVJOCWE",
+            "LLSHKZZWZCGJUYG",
+            "HSUPJPRJDHSBXTG",
+            "BRJSOEQETIKKGLE",
+            "AYOAGCIRDQHRTCD",
+            "SCOTTYKZREPPXPF",
+            "BLQSLNEEEVULFMZ",
+            "OKRIKAMMRMFBAPP",
+            "NUIIYHQMEMQRYFS",
+            "EYZYGKQJPCQWYAK",
+            "SJFZMQIBDBEMKWD",
+            "TGLBHCBECHTOYIK",
+            "OJYEULNCCLYBZUH",
+            "WZMISUKURBIDUXS",
+            "KYLBQQPMDFCKEAB"
+    ).output;
 
 }

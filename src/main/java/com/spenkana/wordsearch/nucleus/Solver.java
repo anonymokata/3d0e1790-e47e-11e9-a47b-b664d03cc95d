@@ -91,6 +91,35 @@ public class Solver {
         return failureDueTo("No more cells");
     }
 
+    public List<Found> findStraightInstancesOnly(String[] words) {
+        List<Found> allInstances = find(words);
+        List<Found> straightInstances = new LinkedList<>();
+        for(Found found : allInstances){
+            if(isStraight(found)){
+                straightInstances.add(found);
+            }
+        }
+        return Collections.unmodifiableList(straightInstances);
+    }
+
+    private static boolean isStraight(Found found) {
+        Cell[] cells = found.cells;
+        if (cells.length == 1){
+            return true;
+        }
+        int xOffsetExpected = cells[1].x - cells[0].x;
+        int yOffsetExpected = cells[1].y - cells[0].y;
+        for (int i = 1; i < cells.length; ++i){
+            if (yOffsetExpected != (cells[i].y - cells[i-1].y)){
+                return false;
+            }
+            if (xOffsetExpected != (cells[i].x - cells[i-1].x)){
+                return false;
+            }
+        }
+        return true;
+    }
+
     public static class Found {
 
         public final String word;

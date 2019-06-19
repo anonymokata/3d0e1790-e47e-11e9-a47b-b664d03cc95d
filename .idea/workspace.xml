@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +22,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+                <state relative-caret-position="393">
+                  <caret line="111" selection-start-line="111" selection-end-line="111" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1272#1273#0" expanded="true" />
@@ -48,6 +48,18 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="484">
+                    <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -55,8 +67,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+                <state relative-caret-position="450">
+                  <caret line="30" selection-start-line="30" selection-end-line="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -67,10 +79,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="484">
-                  <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+                <state relative-caret-position="403">
+                  <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#503#504#0" expanded="true" />
+                    <element signature="e#539#540#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -128,9 +142,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Field.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Scanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -231,7 +246,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenPuzzleIsScanned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhenAPuzzleIsScanned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordSearch" />
       <extension name="coverage">
         <pattern>
@@ -240,13 +255,17 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenPuzzleIsScanned" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned" />
+      <option name="METHOD_NAME" value="scanCanBeRestrictedToStraightInstances" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenPuzzleIsScanned.downwardVerticalScanSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhenAPuzzleIsScanned.multipleWordsFound_BigPuzzle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordSearch" />
       <extension name="coverage">
         <pattern>
@@ -255,14 +274,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenPuzzleIsScanned" />
-      <option name="METHOD_NAME" value="downwardVerticalScanSucceeds" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned" />
+      <option name="METHOD_NAME" value="multipleWordsFound_BigPuzzle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenPuzzleIsScanned.horizontalScanSucceedsAnywhere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordSearch" />
       <extension name="coverage">
         <pattern>
@@ -271,14 +290,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenPuzzleIsScanned" />
-      <option name="METHOD_NAME" value="horizontalScanSucceedsAnywhere" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned" />
+      <option name="METHOD_NAME" value="scanCanBeRestrictedToStraightInstances" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenPuzzleIsScanned.twoWordsAreFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhenAPuzzleIsScanned.scanFindsMultipleInstancesOfAWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordSearch" />
       <extension name="coverage">
         <pattern>
@@ -287,8 +306,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spenkana.wordsearch.nucleus" />
-      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenPuzzleIsScanned" />
-      <option name="METHOD_NAME" value="twoWordsAreFound" />
+      <option name="MAIN_CLASS_NAME" value="com.spenkana.wordsearch.nucleus.WhenAPuzzleIsScanned" />
+      <option name="METHOD_NAME" value="scanFindsMultipleInstancesOfAWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -297,10 +316,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in wordSearch" />
-        <item itemvalue="JUnit.WhenPuzzleIsScanned.twoWordsAreFound" />
-        <item itemvalue="JUnit.WhenPuzzleIsScanned.downwardVerticalScanSucceeds" />
-        <item itemvalue="JUnit.WhenPuzzleIsScanned.horizontalScanSucceedsAnywhere" />
-        <item itemvalue="JUnit.WhenPuzzleIsScanned" />
+        <item itemvalue="JUnit.WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" />
+        <item itemvalue="JUnit.WhenAPuzzleIsScanned" />
+        <item itemvalue="JUnit.WhenAPuzzleIsScanned.multipleWordsFound_BigPuzzle" />
+        <item itemvalue="JUnit.WhenAPuzzleIsScanned.scanFindsMultipleInstancesOfAWord" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +339,7 @@
       <workItem from="1560800897166" duration="10643000" />
       <workItem from="1560858580048" duration="18381000" />
       <workItem from="1560890822418" duration="709000" />
-      <workItem from="1560891853342" duration="13733000" />
+      <workItem from="1560891853342" duration="26824000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure, Maven, Junit 5">
       <created>1560730720894</created>
@@ -434,47 +453,60 @@
       <option name="project" value="LOCAL" />
       <updated>1560911072892</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added all diagonal scans.">
+      <created>1560915691548</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1560915691548</updated>
+    </task>
+    <task id="LOCAL-00018" summary="More refactoring. &quot;Twisty&quot; instances still need to be filtered out.">
+      <created>1560923136823</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1560923136823</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 21h 12m 55s.xml">
+    <history-entry file="WhenAPuzzleIsScanned_multipleWordsFound_BigPuzzle - 2019.06.19 at 01h 25m 25s.xml">
+      <configuration name="WhenAPuzzleIsScanned.multipleWordsFound_BigPuzzle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_wordSearch - 2019.06.19 at 01h 26m 06s.xml">
       <configuration name="All in wordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 21h 22m 04s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 01h 45m 22s.xml">
+      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 21h 23m 13s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 01h 57m 26s.xml">
+      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 21h 28m 47s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 01h 59m 33s.xml">
+      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 21h 30m 17s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 02h 00m 54s.xml">
+      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 21h 39m 39s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 02h 01m 27s.xml">
+      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 21h 40m 19s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenAPuzzleIsScanned - 2019.06.19 at 02h 02m 12s.xml">
+      <configuration name="WhenAPuzzleIsScanned" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 22h 35m 05s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
+    <history-entry file="WhenAPuzzleIsScanned_scanCanBeRestrictedToStraightInstances - 2019.06.19 at 02h 03m 10s.xml">
+      <configuration name="WhenAPuzzleIsScanned.scanCanBeRestrictedToStraightInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 22h 36m 05s.xml">
-      <configuration name="All in wordSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_wordSearch - 2019.06.18 at 22h 38m 18s.xml">
+    <history-entry file="All_in_wordSearch - 2019.06.19 at 02h 03m 19s.xml">
       <configuration name="All in wordSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57282000" />
+    <option name="totallyTimeSpent" value="70373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20033205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -486,7 +518,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33045357" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -494,7 +526,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3088553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -524,19 +556,54 @@
     <MESSAGE value="Support forward horizontal search everywhere." />
     <MESSAGE value="Refactor.&#10;Solver finds multiple words in one invocation." />
     <MESSAGE value="Added backward horizontal scan." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added backward horizontal scan." />
+    <MESSAGE value="Added all diagonal scans." />
+    <MESSAGE value="More refactoring. &quot;Twisty&quot; instances still need to be filtered out." />
+    <option name="LAST_COMMIT_MESSAGE" value="More refactoring. &quot;Twisty&quot; instances still need to be filtered out." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <condition expression="prefix.size() == word.length()" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java</url>
-          <line>56</line>
+          <line>72</line>
           <properties />
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java</url>
+          <line>166</line>
+          <properties />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="instancesFound.get(5)" />
+        <watch expression="instancesFound.get(31)" />
+        <watch expression="instancesFound.get(1)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>prefix.size() == word.length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((LinkedList) cellsMatched).size == 3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cellsMatched.size() == 3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/AppTest.java" />
@@ -624,28 +691,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="464">
-            <caret line="41" selection-start-line="41" selection-end-line="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenPuzzleIsScanned.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/nucleus/WhenAPuzzleIsScanned.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        <state relative-caret-position="393">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1272#1273#0" expanded="true" />
@@ -668,11 +725,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Solver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+        <state relative-caret-position="403">
+          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="484">
+            <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
