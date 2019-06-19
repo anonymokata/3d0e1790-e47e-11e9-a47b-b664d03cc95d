@@ -57,6 +57,15 @@ Having implemented a test of this filtering method on
  the full 15 x 15 puzzle, which finds only the seven expected instances and 
  runs in less than 30 milliseconds, I would expect the filtering approach to 
  be acceptable. 
+ 
+### Biological metaphor
+I organize my code according to an extension of 
+[**Hexagonal Architecture**](https://fideloper.com/hexagonal-architecture) I've
+ pretentiously name **Semiocytological Architecture**. Basically it divides 
+ code 
+ into the **nucleus**, which is pure domain model implementation, and the 
+ **membrane** containing 
+ all the support code (ports, adapters, infrastructure, etc.).
 
 ### DBTDD (Domain-Based TDD)
 
