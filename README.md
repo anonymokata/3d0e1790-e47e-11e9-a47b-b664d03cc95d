@@ -40,4 +40,3 @@ model needs to be tight. If you prefer, you can consider this the distinction
 #### Conflict with classical baby-step TDD
 
 #Current commit/release
-Baby step - code is still too complicated.

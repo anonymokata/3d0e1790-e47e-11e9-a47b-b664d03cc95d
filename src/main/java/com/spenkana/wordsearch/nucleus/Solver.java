@@ -114,7 +114,13 @@ public class Solver {
     private enum Neighbor {
         Right(1, 0),
         Left(-1, 0),
-        Down(0, 1);
+        Down(0, 1),
+        Up(0, -1),
+        DownRight(1,1),
+        UpLeft(-1,-1),
+        UpRight(1, -1),
+        DownLeft(-1, 1)
+        ;
 
         public final int xIncrement;
         public final int yIncrement;

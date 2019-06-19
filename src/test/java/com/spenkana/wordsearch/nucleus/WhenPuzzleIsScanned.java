@@ -1,7 +1,6 @@
 package com.spenkana.wordsearch.nucleus;
 
 import com.spenkana.wordsearch.nucleus.Solver.Found;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 
@@ -25,18 +24,67 @@ public class WhenPuzzleIsScanned {
     public void singleCharWordIsFound() {
         String word = "E";
         Puzzle puzzle = newPuzzle(word).output;
-        Solver solver = new Solver(puzzle);
-
-        List<Found> wordsFound = solver.find(word);
-
-        verifyWordFound(word, wordsFound.get(0));
+        verifyFind(word, puzzle);
     }
 
     @Test
     public void horizontalScanSucceedsAtOrigin() {
         String word = "AB";
         Puzzle puzzle = newPuzzle(word, "CD").output;
-        Solver solver = new Solver(puzzle);
+        verifyFind(word, puzzle);
+    }
+
+    @Test
+    public void horizontalScanSucceedsAnywhereOnFirstLine() {
+        String word = "BC";
+        Puzzle puzzle = newPuzzle("ABC","DEF","GHI").output;
+        verifyFind(word, puzzle);
+    }
+
+    @Test
+    public void horizontalScanSucceedsAnywhere() {
+        String word = "HI";
+        Puzzle puzzle = newPuzzle("ABC","DEF","GHI").output;
+        verifyFind(word, puzzle);
+    }
+
+    @Test
+    public void downwardVerticalScanSucceeds() {
+        verifyFind("GLQ", FiveBy5);
+    }
+
+    @Test
+    public void backwardHorizontalScanSucceeds() {
+        verifyFind("IHG", FiveBy5);
+    }
+
+    @Test
+    public void upwardVerticalScanSucceeds() {
+        verifyFind("QLG", FiveBy5);
+    }
+
+    @Test
+    public void downRightScanSucceeds() {
+        verifyFind("GMS", FiveBy5);
+    }
+
+     @Test
+    public void upLeftScanSucceeds() {
+        verifyFind("SMG", FiveBy5);
+    }
+
+    @Test
+    public void downLeftScanSucceeds() {
+        verifyFind("IMQ", FiveBy5);
+    }
+
+     @Test
+    public void upRightScanSucceeds() {
+        verifyFind("QMI", FiveBy5);
+    }
+
+    private void verifyFind(String word, Puzzle fiveBy5) {
+        Solver solver = new Solver(fiveBy5);
 
         List<Found> wordsFound = solver.find(word);
 
@@ -50,50 +98,6 @@ public class WhenPuzzleIsScanned {
         for(int i = 0; i < expectedLength; ++i) {
             assertEquals(word.charAt(i), found.cells[i].value);
         }
-    }
-
-    @Test
-    public void horizontalScanSucceedsAnywhereOnFirstLine() {
-        String word = "BC";
-        Puzzle puzzle = newPuzzle("ABC","DEF","GHI").output;
-        Solver solver = new Solver(puzzle);
-
-        List<Found> wordsFound = solver.find(word);
-
-        verifyWordFound(word, wordsFound.get(0));
-    }
-
-    @Test
-    public void horizontalScanSucceedsAnywhere() {
-        String word = "HI";
-        Puzzle puzzle = newPuzzle("ABC","DEF","GHI").output;
-        Solver solver = new Solver(puzzle);
-
-        List<Found> wordsFound = solver.find(word);
-
-        verifyWordFound(word, wordsFound.get(0));
-    }
-
-    @Test
-//    @Disabled
-    public void downwardVerticalScanSucceeds() {
-        String word = "GLQ";
-        Solver solver = new Solver(FiveBy5);
-
-        List<Found> wordsFound = solver.find(word);
-
-        verifyWordFound(word, wordsFound.get(0));
-    }
-
-    @Test
-    public void backwardHorizontalScanSucceeds() {
-        String word = "IHG";
-        Solver solver = new Solver(FiveBy5);
-
-        List<Found> wordsFound = solver.find(word);
-
-        verifyWordFound(word, wordsFound.get(0));
-
     }
 
 
