@@ -1,73 +1,101 @@
 package com.spenkana.wordsearch.nucleus;
 
 import com.spenkana.wordsearch.nucleus.Solver.Found;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+
+import java.util.List;
 
 import static com.spenkana.wordsearch.nucleus.Puzzle.newPuzzle;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class WhenPuzzleIsScanned {
 
+    Puzzle FiveBy5 = newPuzzle(
+            "ABCDE",
+            "FGHIJ",
+            "KLMNO",
+            "PQRST",
+            "UVWXY"
+
+    ).output;
 
     @Test
     public void singleCharWordIsFound() {
         String word = "E";
         Puzzle puzzle = newPuzzle(word).output;
-        Solver solver = Solver.newScanner(puzzle).output;
+        Solver solver = new Solver(puzzle);
 
-        Found[] wordsFound = solver.find(word);
+        List<Found> wordsFound = solver.find(word);
 
-        Found found = wordsFound[0];
-        assertEquals(found.word, word);
-        assertEquals(1, found.cells.length);
-        Puzzle.Cell cell = found.cells[0];
-        assertEquals(puzzle.initial, cell);
+        verifyWordFound(word, wordsFound.get(0));
     }
 
     @Test
     public void horizontalScanSucceedsAtOrigin() {
         String word = "AB";
         Puzzle puzzle = newPuzzle(word, "CD").output;
-        Solver solver = Solver.newScanner(puzzle).output;
+        Solver solver = new Solver(puzzle);
 
-        Found[] wordsFound = solver.find(word);
+        List<Found> wordsFound = solver.find(word);
 
-        Found found = wordsFound[0];
+        verifyWordFound(word, wordsFound.get(0));
+    }
+
+    private void verifyWordFound(String word, Found found) {
         assertEquals(found.word, word);
-        assertEquals(2, found.cells.length);
-        assertEquals(puzzle.initial, found.cells[0]);
-        assertEquals(puzzle.getCell(1, 0).output, found.cells[1]);
+        int expectedLength = word.length();
+        assertEquals(expectedLength, found.cells.length);
+        for(int i = 0; i < expectedLength; ++i) {
+            assertEquals(word.charAt(i), found.cells[i].value);
+        }
     }
 
     @Test
     public void horizontalScanSucceedsAnywhereOnFirstLine() {
         String word = "BC";
         Puzzle puzzle = newPuzzle("ABC","DEF","GHI").output;
-        Solver solver = Solver.newScanner(puzzle).output;
+        Solver solver = new Solver(puzzle);
 
-        Found[] wordsFound = solver.find(word);
+        List<Found> wordsFound = solver.find(word);
 
-        Found found = wordsFound[0];
-        assertEquals(found.word, word);
-        assertEquals(2, found.cells.length);
-        assertEquals(puzzle.getCell(1, 0).output, found.cells[0]);
-        assertEquals(puzzle.getCell(2, 0).output, found.cells[1]);
+        verifyWordFound(word, wordsFound.get(0));
     }
 
     @Test
     public void horizontalScanSucceedsAnywhere() {
         String word = "HI";
         Puzzle puzzle = newPuzzle("ABC","DEF","GHI").output;
-        Solver solver = Solver.newScanner(puzzle).output;
+        Solver solver = new Solver(puzzle);
 
-        Found[] wordsFound = solver.find(word);
+        List<Found> wordsFound = solver.find(word);
 
-        Found found = wordsFound[0];
-        assertEquals(found.word, word);
-        assertEquals(2, found.cells.length);
-        assertEquals(puzzle.getCell(1, 2).output, found.cells[0]);
-        assertEquals(puzzle.getCell(2, 2).output, found.cells[1]);
+        verifyWordFound(word, wordsFound.get(0));
+    }
+
+    @Test
+    @Disabled
+    public void downwardVerticalScanSucceeds() {
+        String word = "GLQ";
+        Solver solver = new Solver(FiveBy5);
+
+        List<Found> wordsFound = solver.find(word);
+
+        verifyWordFound(word, wordsFound.get(0));
+    }
+
+    @Test
+    public void twoWordsAreFound() {
+        String word1 = "BCD";
+        String word2 = "GHI";
+        Solver solver = new Solver(FiveBy5);
+
+        List<Found> wordsFound = solver.find(word1, word2);
+
+        assertEquals(2, wordsFound.size());
+        verifyWordFound(word1, wordsFound.get(0));
+        verifyWordFound(word2, wordsFound.get(1));
     }
 
 

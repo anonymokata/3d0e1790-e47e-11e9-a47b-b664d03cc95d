@@ -33,7 +33,7 @@ Not "unit" tests: DBTDD tests are organized around behavior, not classes.
 
 #### Ethnological Domain Modeling
 The natives' domain models need not be "correct" or in the most efficient form. 
-They need to work in a reasonably sustainable way. The developers' domain 
+They only need to work in a reasonably sustainable way. The developers' domain 
 model needs to be tight. If you prefer, you can consider this the distinction
  between the "problem domain" and the "solution domain".
 

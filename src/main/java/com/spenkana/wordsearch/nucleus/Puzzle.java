@@ -44,7 +44,7 @@ public class Puzzle {
     }
 
     public Result<Cell, SimpleError> getCell(int x, int y) {
-        if(x < 0 || x > sideLength || y < 0 || y > sideLength){
+        if(x < 0 || x >= sideLength || y < 0 || y >= sideLength){
             return failureDueTo("Parameter(s) out of bounds");
         }
         return successWith(new Cell(x, y, data[y][x]));
