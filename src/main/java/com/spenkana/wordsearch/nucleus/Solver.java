@@ -19,6 +19,43 @@ public class Solver {
         this.puzzle = puzzle;
     }
 
+    public String[] solveFor(String[] expectedWords) {
+        List<Found> instancesFound = findStraightInstancesOnly(expectedWords);
+        int size = instancesFound.size();
+        String[] formatted = new String[size];
+        for(int i = 0; i < size; ++i){
+            formatted[i] = format(instancesFound.get(i));
+        }
+        return formatted;
+    }
+
+    private static String format(Found found){
+        StringBuilder sb = new StringBuilder();
+        sb.append(found.word)
+                .append(": ");
+        for (Cell cell : found.cells){
+            sb.append('(')
+                    .append(cell.x)
+                    .append(',')
+                    .append(cell.y)
+                    .append(')')
+                    .append(',');
+        }
+        sb.deleteCharAt(sb.toString().length() - 1);
+        return sb.toString();
+    }
+
+    public List<Found> findStraightInstancesOnly(String[] words) {
+        List<Found> allInstances = find(words);
+        List<Found> straightInstances = new LinkedList<>();
+        for(Found found : allInstances){
+            if(isStraight(found)){
+                straightInstances.add(found);
+            }
+        }
+        return Collections.unmodifiableList(straightInstances);
+    }
+
     public List<Found> find(String... words) {
         List<Found> instancesFound = new LinkedList<>();
         for (String word : words) {
@@ -89,17 +126,6 @@ public class Solver {
             return successWith(puzzle.getCell(0, y).output);
         }
         return failureDueTo("No more cells");
-    }
-
-    public List<Found> findStraightInstancesOnly(String[] words) {
-        List<Found> allInstances = find(words);
-        List<Found> straightInstances = new LinkedList<>();
-        for(Found found : allInstances){
-            if(isStraight(found)){
-                straightInstances.add(found);
-            }
-        }
-        return Collections.unmodifiableList(straightInstances);
     }
 
     private static boolean isStraight(Found found) {
