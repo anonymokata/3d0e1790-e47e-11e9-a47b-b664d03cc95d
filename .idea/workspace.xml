@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3dda1603-65ef-4ff5-bcb3-dc201f2b6752" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,12 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="150">
-                <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="19" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="81" />
               </first_editor>
               <second_editor />
             </state>
@@ -34,18 +30,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
+            <state relative-caret-position="195">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="420">
               <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -57,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="195">
               <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,11 +137,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/ExpectedObjects.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/membrane/Loader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/nucleus/Puzzle.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/PuzzleSpec.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/WordSearch.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -192,131 +198,6 @@
             <path>
               <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="membrane" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="nucleus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spenkana" type="462c0819:PsiDirectoryNode" />
-              <item name="wordsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="membrane" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordSearch" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -331,6 +212,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/spenkana" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/word-search-1.0-SNAPSHOT.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -340,6 +222,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.breadcrumbs" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/target/word-search-1.0-SNAPSHOT.jar" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -471,7 +354,8 @@
       <workItem from="1560800897166" duration="10643000" />
       <workItem from="1560858580048" duration="18381000" />
       <workItem from="1560890822418" duration="709000" />
-      <workItem from="1560891853342" duration="45339000" />
+      <workItem from="1560891853342" duration="47061000" />
+      <workItem from="1561034906145" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure, Maven, Junit 5">
       <created>1560730720894</created>
@@ -620,7 +504,28 @@
       <option name="project" value="LOCAL" />
       <updated>1560973366265</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Program can be executed from command line.">
+      <created>1560978827537</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1560978827537</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Updated README.">
+      <created>1560987472674</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1560987472675</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Output jar to project root.">
+      <created>1561035744806</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1561035744807</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -656,12 +561,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88888000" />
+    <option name="totallyTimeSpent" value="91563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20033205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20254566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -679,8 +584,8 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3088553" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3088553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -714,7 +619,10 @@
     <MESSAGE value="Added method to filter out kinky instances." />
     <MESSAGE value="Solution is formatted correctly" />
     <MESSAGE value="Puzzle spec is loaded from file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Puzzle spec is loaded from file." />
+    <MESSAGE value="Program can be executed from command line." />
+    <MESSAGE value="Updated README." />
+    <MESSAGE value="Output jar to project root." />
+    <option name="LAST_COMMIT_MESSAGE" value="Output jar to project root." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -904,10 +812,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/WordSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
+        <state relative-caret-position="420">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -918,33 +839,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spenkana/wordsearch/membrane/WhenProgramIsExecuted.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="150">
-            <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="19" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="81" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spenkana/wordsearch/WordSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

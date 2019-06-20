@@ -2,7 +2,7 @@
 
 ## Run the program
 1. Clone the repository: https://github.com/GHogChi/wordsearch.git
-2. cd to the root of your local repository
+2. cd to the root of the project
 3. Be sure your default Java version is 11
 4. Execute the following command:
 
