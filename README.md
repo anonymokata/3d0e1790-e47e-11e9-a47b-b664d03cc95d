@@ -6,7 +6,7 @@
 3. Be sure your default Java version is 11
 4. Execute the following command:
 
-**java -jar target/word-search-1.0-SNAPSHOT.jar src/test/resources/puzzleSpecExample.txt**
+**java -jar word-search-1.0-SNAPSHOT.jar src/test/resources/puzzleSpecExample.txt**
 
 To run with other puzzles, replace the filepath in the above command with the
  path to your puzzle specification file.
